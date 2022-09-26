@@ -1,0 +1,7 @@
+sources:
+    pollen:
+        description: Images of pollen grains, to be used as an example of Scivision.
+        origin: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044
+        driver: intake_xarray.image.ImageSource
+        args:
+            urlpath: ["zip://*.jpg::https://zenodo.org/record/7113865/files/PollenData.zip?download=1"]
